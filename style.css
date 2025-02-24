@@ -66,7 +66,7 @@ section {
 }
 
 body {
-    background-color: #f3f2ee
+    background-color: #cecece88
     ;
 }
     
@@ -1202,8 +1202,12 @@ td {
 }
 @media screen and (max-width: 430px) {
     .main {
-        background :linear-gradient(to right, #e6f4f6, #cee0e6, #95acba); 
         background: url('images/mob.jpg') no-repeat bottom ;
+        background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+        background: rgba(56, 117, 173, 0.418); /* لون أزرق داكن شفاف */
+
         background-attachment:fixed;
         padding:0;
         margin: 0;
@@ -1283,6 +1287,7 @@ td {
 @media screen and (max-width: 768px) {
     .main {
         background: url('images/ipad.jpg') no-repeat  ;
+
         background-attachment:fixed;
         padding:0;
         margin: 0;
