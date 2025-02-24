@@ -1202,7 +1202,7 @@ td {
 }
 @media screen and (max-width: 430px) {
     .main {
-        background: url('images/mob.jpg') no-repeat bottom ;
+        background: url('images/mob.webp') no-repeat bottom ;
         background: rgba(56, 117, 173, 0.418); /* لون أزرق داكن شفاف */
         background-size: cover;
         background-attachment:fixed;
