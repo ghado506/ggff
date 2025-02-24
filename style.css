@@ -1203,11 +1203,8 @@ td {
 @media screen and (max-width: 430px) {
     .main {
         background: url('images/mob.jpg') no-repeat bottom ;
-        background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
         background: rgba(56, 117, 173, 0.418); /* لون أزرق داكن شفاف */
-
+        background-size: cover;
         background-attachment:fixed;
         padding:0;
         margin: 0;
